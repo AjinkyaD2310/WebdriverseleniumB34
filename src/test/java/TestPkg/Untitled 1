@@ -1,0 +1,21 @@
+Xpath axes methhod
+Following, Preceding
+
+//input[@name="name"]//following::input[]
+//input[@name="phone"]//preceding::input[]
+
+Preceding - sibling
+//ul[@id="menu-side-menu"]//li[@id="menu-item-1423"]//preceding-sibling::li
+
+Following- Sibling
+//ul[@id="menu-side-menu"]//li[@id="menu-item-1423"]//following-sibling::li
+
+//div[@class='sidebar-inner']//parent::div
+
+CSS Selector
+.radius
+compound class 
+
+
+tag & class name - div.dropdown-menu
+tag&id div#bs-example-navbarS
